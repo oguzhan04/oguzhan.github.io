@@ -1,0 +1,78 @@
+body {
+    margin: 25px;
+    background-color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+img {
+    max-width: 350px;
+    align-content: center;
+    display: block;
+    margin: 20px auto;
+}
+
+#gospel {
+    margin: 25px 400px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* NAVIGATION BAR */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #010e80;
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.header img.logo {
+    max-width: 200px;
+    margin: 0 0 0 auto;
+}
+
+.header .logo {
+    max-width: 100px;
+    margin: 0 0 0 auto !important;
+}
+
+
+#gospel {
+    margin: 25px 400px;
+    text-align: center;
+    font-weight: bold;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        /* translucent dark layer */
+        url("https://i.redd.it/y9jlmazwfz791.jpg");
+    /* your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    /* keep text opaque and visible */
+    padding: 40px;
+    /* space inside */
+    border-radius: 10px;
+    /* optional: rounded corners */
+}
